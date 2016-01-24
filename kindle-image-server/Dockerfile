@@ -6,6 +6,6 @@ COPY nginx/.htpasswd /etc/nginx/.htpasswd
 
 COPY src /data/www
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD ["nginx", "-g", "daemon off;"] 

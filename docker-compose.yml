@@ -8,6 +8,6 @@ kindle-image-server:
   build: ./kindle-image-server
   restart: always
   ports:
-    - "30000:8080"
+    - "30005:8080"
   volumes:
     - ./data:/data/images
