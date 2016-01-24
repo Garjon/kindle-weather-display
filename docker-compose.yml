@@ -11,3 +11,6 @@ kindle-image-server:
     - "30005:8080"
   volumes:
     - ./data:/data/images
+  environment:
+    - SERVICE_NAME=kindle-weather
+    - SERVICE_TAGS=web
