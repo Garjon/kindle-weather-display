@@ -1,0 +1,13 @@
+kindle-image-generator:
+  build: ./kindle-image-generator
+  #restart: always
+  volumes:
+    - ./data:/var/data/kindle-image-generator
+
+kindle-image-server:
+  build: ./kindle-image-server
+  restart: always
+  ports:
+    - "30000:8080"
+  volumes:
+    - ./data:/data/images
