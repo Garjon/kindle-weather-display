@@ -8,5 +8,5 @@ do
     rsvg-convert --background-color=white -o weather-script-output.png weather-script-output.svg
     pngcrush -c 0 -ow weather-script-output.png
     cp -f weather-script-output.png /var/data/kindle-image-generator/weather-forecast.png
-    sleep 600
+    sleep 3600
 done

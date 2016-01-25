@@ -10,6 +10,7 @@ import codecs
 import urllib2
 import json
 
+
 #
 # Geographic location
 #
